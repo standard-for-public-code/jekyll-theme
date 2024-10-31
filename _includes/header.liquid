@@ -1,5 +1,9 @@
 <header>
-  {% if site.title %}
+  {% if page.title %}
+    <section class="site-title {% if page.url == '/' %} home {% endif %}">
+      <a href="{{ site.url }}{{ site.baseurl }}">{{ page.title }}</a>
+    </section>
+  {% elsif site.title %}
     <section class="site-title {% if page.url == '/' %} home {% endif %}">
       <a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
     </section>
