@@ -58,8 +58,8 @@
               {% assign authors_file = true %}
           {% endif %}
         {% endfor %}
-        {% if authors_file != true %}<a href="https://publiccode.net/">
-          {{ site.copyright | default: 'Foundation for Public Code' }}
+        {% if authors_file != true %}<a href="https://www.standardforpubliccode.org/">
+          {{ site.copyright | default: 'Standard for Public Code' }}
         </a>{% endif %}
         {% if authors_file %}<a href="{{ site.baseurl }}/AUTHORS.html">
           {{ site.copyright | default: ' The Authors' }}
