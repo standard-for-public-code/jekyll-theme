@@ -1,11 +1,5 @@
 <header>
-  {% if page.translation-title %}
-    {% assign url_parts = page.url | split: '/' %}
-    {% assign iso_code = '/' | append: url_parts[1] | append: '/' %}
-    <section class="site-title {% if page.url == iso_code %} home {% endif %}">
-      <a href="{{ site.url }}{{ site.baseurl }}{{ iso_code }}">{{ page.translation-title }}</a>
-    </section>
-  {% elsif site.title %}
+  {% if site.title %}
     <section class="site-title {% if page.url == '/' %} home {% endif %}">
       <a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
     </section>
