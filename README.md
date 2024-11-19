@@ -1,11 +1,8 @@
-# Foundation for Public Code Jekyll theme
+# Standard for Public Code Jekyll theme
 
 [![pages-build-deployment](https://github.com/publiccodenet/jekyll-theme/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/publiccodenet/jekyll-theme/actions/workflows/pages/pages-build-deployment)
 
-This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the set up of quick generic static sites and for use with [GitHub pages](https://pages.github.com/). The Foundation for Public Code uses this on all of its website for consistency and maintainability. We've designed this to keep as much content as possible in Markdown to preserve mutability. [Read more about how this codebase is updated and who's involved in decisionmaking](/governance.md).
-
-This project is meant internally for the Foundation for Public Code as we try to create version controlled single sources of truth and hyperlinked content that can be transformed and collated whenever needed.
-
+This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the set up of quick generic static sites and for use with [GitHub pages](https://pages.github.com/). The Standard for Public Code uses this on all of its website for consistency and maintainability. It is designed to keep as much content as possible in Markdown to preserve mutability. [Read more about how this codebase is updated and who's involved in decisionmaking](/governance.md).
 
 ## Building locally
 
@@ -64,10 +61,7 @@ layout: redirected
 sitemap: false
 redirect_to: https://example.net/some-url
 ```
-
-This is how we [redirect pages](https://about.publiccode.net/activities/documentation/move-merge-delete-pages.md).
-
-### Foundation for Public Code footer
+### Footer
 
 You can remove the footer with the contact information and higher level navigation to the footer by setting `hide_foundation_footer: true` in the `_config.yml`.
 
@@ -92,8 +86,6 @@ The `lang` configuration is used in the `html` tag `lang` attribute.
 
 ## Licence
 
-© Foundation for Public Code 2018
+© Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS.html
 
 The code in this repository is licensed under [EUPL 1.2](LICENSE.md).
-
-Logos, brands and trademarks of the Foundation for Public Code are licensed differently, check out https://brand.publiccode.net/ for more information.
