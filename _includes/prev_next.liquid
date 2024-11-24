@@ -1,7 +1,15 @@
 <span id="span-prev-next" class="theme-prev-next">
 {% assign prev_order = page.order | minus:1 %}
 {% assign next_order = page.order | plus:1 %}
-{% assign sorted = site.pages | sort:"order" %}
+
+{% assign url_parts = page.url | split: '/' %}
+{% if url_parts[1] == 'criteria' %}
+	{% assign sorted = site.pages | sort:"order" %}
+{% else %}
+	{% assign criteria_path = '/' | append: url_parts[1] | append: '/criteria/' %}
+	{% assign sorted = site.pages | where_exp: "page", "page.dir contains criteria_path" | sort:"order" %}
+{% endif %}
+
 {% for otherpage in sorted %}
 {% if otherpage.order == prev_order %}
 <span id="span-prev" class="theme-prev-next-prev"><a
