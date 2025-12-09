@@ -1,6 +1,6 @@
 # Contributing
 
-<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- SPDX-License-Identifier: EUPL -->
 <!-- SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 
 The Standard for Public Code is [community governed](https://github.com/standard-for-public-code/standard-for-public-code/blob/develop/GOVERNANCE.md).
@@ -20,7 +20,7 @@ If you want to add to the documentation or code of one of our projects you shoul
 
 If you never used GitHub, get up to speed with [Understanding the GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) or follow one of the great free interactive courses in [GitHub Skills](https://skills.github.com/) on working with GitHub and working with MarkDown, the syntax this project's documentation is in.
 
-This project is licensed Creative Commons Zero v1.0 Universal, which essentially means that the project, along with your contributions is in the public domain in whatever jurisdiction possible, and everyone can do whatever they want with it.
+This project is [licensed EUPL](LICENSE.md), by contributing you agree to release all your contributions to it under the same license.
 
 ### 1. Make your changes
 
