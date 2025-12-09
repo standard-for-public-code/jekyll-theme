@@ -1,15 +1,11 @@
-# Contributing to this standard
+# Contributing
 
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 
-🙇‍♀️ Thank you for contributing!
+The Standard for Public Code is [community governed](https://github.com/standard-for-public-code/standard-for-public-code/blob/develop/GOVERNANCE.md).
 
-We understand that a standard like this can only be set in collaboration with as many public technologists, policy makers and interested folk as possible.
-Thus we appreciate your input, enjoy feedback and welcome improvements to this project and are very open to collaboration.
-
-We love issues and pull requests from everyone.
-If you're not comfortable with GitHub, please join the next [community call](https://community.standardforpubliccode.org/) and provide your feedback.
+Join our [community calls](https://community.standardforpubliccode.org/), come say hello on our [discussion board](https://github.com/standard-for-public-code/standard-for-public-code/discussions), or feel free to leave an issue on any of [our repositories](https://github.com/orgs/standard-for-public-code/repositories).
 
 ## Problems, suggestions and questions in issues
 
@@ -44,16 +40,11 @@ Document choices or decisions you make in the commit message, this will enable e
 If you are adding code, make sure you've added and updated the relevant documentation and tests before you submit your pull request.
 Make sure to write tests that show the behavior of the newly added or changed code.
 
-#### Applicable policy
-
-Currently, the Standard for Public Code is not implementing any specific public policy.
-
 #### Style
 
 The Standard for Public Code aims to [use plain English](criteria/use-plain-english.md) and we have chosen American English for spelling.
 Text content should typically follow one line per sentence, with no line-wrap, in order to make `diff` output easier to view.
 However, we want to emphasize that it is more important that you make your contribution than worry about spelling and typography.
-We will help you get it right in our review process and we also have a separate quality check before [making a new release](docs/releasing.md).
 
 #### Standards to follow
 
@@ -84,22 +75,3 @@ If your documentation and code have passed human review, it is merged.
 
 Your ideas, documentation and code have become an integral part of this project.
 You are the open source hero we need!
-
-As a community we would like to include all contributors as [`AUTHORS`](AUTHORS.md).
-If your name is not already there, please open a pull request to add yourself.
-Each release will include a review to check if all new contributors have been mentioned.
-If you wish not to be included, please let us know explicitly.
-
-## Languages and translations
-
-The authoritative language of the Standard for Public Code is English.
-
-Versions in other languages are provided by the community as best-effort.
-These courtesy translations may not be up to date with the English version, as missing translations do not block releases.
-We invite you to help maintain existing and add new [community translations of the Standard](https://github.com/standard-for-public-code/community-translations-standard).
-
-## Releases
-
-We have dedicated documentation for creating [new releases](/docs/releasing.md) and [ordering printed standards](/docs/printing.md).
-
-For more information on how to use and contribute to this project, please read the [`README`](README.md).
